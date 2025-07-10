@@ -71,7 +71,9 @@ jupyter notebook
 ## 🖼️ Prediction Function Example
 
 ```python
-predict_brain_tumor("brain_tumor_dataset/yes/Y1.jpg")
+<img src="brain_tumor_dataset/yes/Y1.jpg" alt="Predicted Tumor Image" width="400"/>
+
+> This image was used for prediction and classified as having a brain tumor.
 ```
 
 ---
