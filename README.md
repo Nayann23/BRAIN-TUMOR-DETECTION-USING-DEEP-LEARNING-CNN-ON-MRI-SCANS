@@ -44,9 +44,9 @@ pip install tensorflow numpy opencv-python matplotlib scikit-learn seaborn
 
 ## 🚀 How to Run
 
-1. Clone the repo
-2. Activate the virtual environment
-3. Launch Jupyter Notebook
+1. Clone the repo  
+2. Activate the virtual environment  
+3. Launch Jupyter Notebook  
 
 ```bash
 jupyter notebook
@@ -58,22 +58,20 @@ jupyter notebook
 
 ## 📊 Features
 
-- 📥 Image Preprocessing (resizing, normalization)
-- 🧠 CNN Model built with:
-  - Conv2D, MaxPooling2D
-  - Flatten, Dense, Dropout
-- 📈 Training with train/test split
-- 📉 Evaluation with classification report and confusion matrix
-- 🖼️ Custom image prediction
+- 📥 Image Preprocessing (resizing, normalization)  
+- 🧠 CNN Model built with:  
+  - Conv2D, MaxPooling2D  
+  - Flatten, Dense, Dropout  
+- 📈 Training with train/test split  
+- 📉 Evaluation with classification report and confusion matrix  
+- 🖼️ Custom image prediction  
 
 ---
 
 ## 🖼️ Prediction Function Example
 
 ```python
-<img src="brain_tumor_dataset/yes/Y1.jpg" alt="Predicted Tumor Image" width="400"/>
-
-> This image was used for prediction and classified as having a brain tumor.
+predict_brain_tumor("brain_tumor_dataset/yes/Y1.jpg")
 ```
 
 ---
@@ -85,3 +83,9 @@ jupyter notebook
 ```
 
 ---
+
+## 📷 Prediction on Sample Image
+
+<img src="brain_tumor_dataset/yes/Y1.jpg" alt="Predicted Tumor Image" width="400"/>
+
+> This image was used for prediction and classified as having a brain tumor.
