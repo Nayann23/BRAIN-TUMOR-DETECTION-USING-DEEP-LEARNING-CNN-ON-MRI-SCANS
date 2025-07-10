@@ -66,13 +66,6 @@ jupyter notebook
 - 📉 Evaluation with classification report and confusion matrix  
 - 🖼️ Custom image prediction  
 
----
-
-## 🖼️ Prediction Function Example
-
-```python
-predict_brain_tumor("brain_tumor_dataset/yes/Y1.jpg")
-```
 
 ---
 
