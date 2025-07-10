@@ -9,11 +9,11 @@ This project uses a Convolutional Neural Network (CNN) to detect brain tumors fr
 ```
 brain_tumor_detection/
 │
-├── brain_tumor_dataset/       # Dataset folder (contains 'yes' and 'no' subfolders)
-├── venv/                      # Virtual environment (ignored via .gitignore)
-├── .gitignore                 # To exclude venv and other unnecessary files
-├── BRAIN-TUMOR-DETECTION.ipynb # Jupyter notebook with all steps
-└── README.md                  # You're here!
+├── brain_tumor_dataset/       
+├── venv/                      
+├── .gitignore                 
+├── BRAIN-TUMOR-DETECTION.ipynb 
+└── README.md                  
 ```
 
 ---
