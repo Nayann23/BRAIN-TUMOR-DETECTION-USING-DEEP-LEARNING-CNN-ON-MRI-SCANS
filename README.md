@@ -3,8 +3,7 @@
 This project uses a Convolutional Neural Network (CNN) to detect brain tumors from MRI images. The model is built with TensorFlow and trained on a dataset of labeled brain scans (`yes` for tumor, `no` for no tumor).
 
 ---
-
-# brain_tumor_detection/
+brain_tumor_detection/
 │
 ├── brain_tumor_dataset/              # 🧩 Dataset folder (contains 'yes' and 'no' subfolders)
 │
