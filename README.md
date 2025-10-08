@@ -3,26 +3,16 @@
 This project uses a Convolutional Neural Network (CNN) to detect brain tumors from MRI images. The model is built with TensorFlow and trained on a dataset of labeled brain scans (`yes` for tumor, `no` for no tumor).
 
 ---
-brain_tumor_detection/
-│
-├── brain_tumor_dataset/                 # Contains the dataset with 'yes' and 'no' subfolders
-│   ├── yes/                             # MRI scans with brain tumors
-│   └── no/                              # MRI scans without brain tumors
-│
-├── visuals/                             # Stores all generated visuals and plots
-│   ├── Brain MRI Images Samples.png
-│   ├── Brain Tumor Confusion Matrix.png
-│   ├── No Tumor Detection.png
-│   ├── Training vs Validation Accuracy & Loss.png
-│   └── Tumor Detection.png
-│
-├── venv/                                # Python virtual environment (for dependencies)
-│
-├── .gitignore                           # Specifies intentionally untracked files to ignore
-├── requirements.txt                     # List of required Python packages
-├── BRAIN-TUMOR-DETECTION.ipynb          # Main Jupyter Notebook with training and testing code
-└── README.md                            # Project documentation and usage instructions
-
+| Path | Type | Description |
+|------|------|-------------|
+| `brain_tumor_detection/` | Directory | Project root. |
+| `brain_tumor_dataset/` | Directory | Dataset folder containing subfolders:<br>`yes/` — MRI scans with tumors<br>`no/` — MRI scans without tumors |
+| `visuals/` | Directory | Generated visuals and plots:<br>`Brain MRI Images Samples.png`<br>`Brain Tumor Confusion Matrix.png`<br>`No Tumor Detection.png`<br>`Training vs Validation Accuracy & Loss.png`<br>`Tumor Detection.png` |
+| `venv/` | Directory | Python virtual environment (local; usually excluded from VCS). |
+| `.gitignore` | File | Files and folders to ignore (e.g., `venv/`, cache, checkpoints). |
+| `requirements.txt` | File | List of Python dependencies required to run the project. |
+| `BRAIN-TUMOR-DETECTION.ipynb` | File | Main Jupyter Notebook with training, evaluation, and visualizations. |
+| `README.md` | File | Project documentation, setup & usage instructions, and notes. |
 
 ---
 
