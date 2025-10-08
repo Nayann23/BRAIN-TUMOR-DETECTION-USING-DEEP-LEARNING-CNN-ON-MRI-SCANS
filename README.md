@@ -58,13 +58,12 @@ jupyter notebook
 ---
 
 ## ✅ Output Example Prediction on Sample Image
-
-🧠 Prediction: Tumor Detected (Yes)
 <img src="brain_tumor_dataset/yes/Y1.jpg" alt="Tumor Predicted Image" width="400"/>
+🧠 Prediction: Tumor Detected (Yes)
 
 ----
-🧠 Prediction: Tumor Detected (No)
 <img src="brain_tumor_dataset/no/10 no.jpg" alt="No Tumor Predicted Image" width="400"/>
+🧠 Prediction: Tumor Detected (No)
 
 > This images was used for prediction and classified as having a brain tumor or not.
 
