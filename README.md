@@ -57,17 +57,37 @@ jupyter notebook
 
 ---
 
-## ✅ Output Example
+## ✅ Output Example Prediction on Sample Image
 
-```
 🧠 Prediction: Tumor Detected (Yes)
-```
+<img src="brain_tumor_dataset/yes/Y1.jpg" alt="Tumor Predicted Image" width="400"/>
+
+----
+🧠 Prediction: Tumor Detected (No)
+<img src="brain_tumor_dataset/no/10 no.jpg" alt="No Tumor Predicted Image" width="400"/>
+
+> This images was used for prediction and classified as having a brain tumor or not.
 
 ---
 
-## 📷 Prediction on Sample Image
+## 📜 License
 
-<img src="brain_tumor_dataset/yes/Y1.jpg" alt="Tumor Predicted Image" width="400"/>
-<img src="brain_tumor_dataset/yes/Y1.jpg" alt="No Tumor Predicted Image" width="400"/>
+This project is open-source and licensed under the [MIT License](LICENSE). See the LICENSE file for full details.
 
-> This image was used for prediction and classified as having a brain tumor.
+---
+
+## 👤 Author:  **Nayan Darokar** 
+
+## GitHub
+```bash
+https://github.com/Nayann23
+```
+
+## Email:
+```bash
+reachout.nayan@gmail.com  
+```
+## Portfolio: 
+```bash
+https://nayan-datascience-portfolio.vercel.app/
+```
