@@ -3,27 +3,26 @@
 This project uses a Convolutional Neural Network (CNN) to detect brain tumors from MRI images. The model is built with TensorFlow and trained on a dataset of labeled brain scans (`yes` for tumor, `no` for no tumor).
 
 ---
-
-
 brain_tumor_detection/
 │
-├── brain_tumor_dataset/             
-│   ├── yes/                        
-│   └── no/                         
+├── brain_tumor_dataset/                 # Contains the dataset with 'yes' and 'no' subfolders
+│   ├── yes/                             # MRI scans with brain tumors
+│   └── no/                              # MRI scans without brain tumors
 │
-├── visuals/                        
+├── visuals/                             # Stores all generated visuals and plots
 │   ├── Brain MRI Images Samples.png
 │   ├── Brain Tumor Confusion Matrix.png
 │   ├── No Tumor Detection.png
 │   ├── Training vs Validation Accuracy & Loss.png
 │   └── Tumor Detection.png
 │
-├── venv/                           
+├── venv/                                # Python virtual environment (for dependencies)
 │
-├── .gitignore                      
-├── requirements.txt                
-├── BRAIN-TUMOR-DETECTION.ipynb     
-└── README.md                       
+├── .gitignore                           # Specifies intentionally untracked files to ignore
+├── requirements.txt                     # List of required Python packages
+├── BRAIN-TUMOR-DETECTION.ipynb          # Main Jupyter Notebook with training and testing code
+└── README.md                            # Project documentation and usage instructions
+
 
 ---
 
